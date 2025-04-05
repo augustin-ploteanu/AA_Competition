@@ -1,0 +1,3 @@
+The strategy reflects the general tendency of the opponent's last three moves. If the most recent two moves are the same, it mirrors that move—effectively representing the average behavior across the last three rounds. If the last two moves differ, it defaults to the third-most recent move to break the tie in behavior.
+
+During the first two rounds, it always cooperates. On the third round, if the opponent's first two moves are identical, it mimics that move; otherwise, it cooperates once more.
